@@ -11,12 +11,10 @@ class TestUtil {
     return trade;
   }
 
-  Cookbook MOCK_COOK_BOOK_OBJECT = Cookbook(
-    creator: '',
-    id: MOCK_COOKBOOK_ID,
-    name: 'Legend of the Undead Dragon',
-    description: 'Cookbook for running pylons recreation of LOUD',
-    developer: 'Pylons Inc',
-    version: 'v0.0.1',
-    supportEmail: 'alex@shmeeload.xyz',
-    enabled: true);
+Execution MOCK_EXECUTION = Execution(
+  creator: MOCK_OWNER,
+  id: MOCK_EXECUTION_ID,
+  cookbookId: MOCK_COOKBOOK_ID,
+  recipeVersion: MOCK_RECIPE_VERSION,
+  nodeVersion: MOCK_NODE_VERSION,
+);
