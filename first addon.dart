@@ -18,3 +18,9 @@ Execution MOCK_EXECUTION = Execution(
   recipeVersion: MOCK_RECIPE_VERSION,
   nodeVersion: MOCK_NODE_VERSION,
 );
+
+
+
+    void loadTrades(List<Trade> trade) {
+    trades.addAll(trade);
+  }
